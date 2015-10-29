@@ -1,0 +1,101 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+   background: rgba(18,17,17,1);
+background: -moz-linear-gradient(top, rgba(18,17,17,1) 0%, rgba(18,17,17,1) 1%, rgba(242,242,242,1) 17%, rgba(0,0,0,1) 46%, rgba(237,225,223,1) 79%, rgba(5,5,5,1) 89%, rgba(5,5,5,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(18,17,17,1)), color-stop(1%, rgba(18,17,17,1)), color-stop(17%, rgba(242,242,242,1)), color-stop(46%, rgba(0,0,0,1)), color-stop(79%, rgba(237,225,223,1)), color-stop(89%, rgba(5,5,5,1)), color-stop(100%, rgba(5,5,5,1)));
+background: -webkit-linear-gradient(top, rgba(18,17,17,1) 0%, rgba(18,17,17,1) 1%, rgba(242,242,242,1) 17%, rgba(0,0,0,1) 46%, rgba(237,225,223,1) 79%, rgba(5,5,5,1) 89%, rgba(5,5,5,1) 100%);
+background: -o-linear-gradient(top, rgba(18,17,17,1) 0%, rgba(18,17,17,1) 1%, rgba(242,242,242,1) 17%, rgba(0,0,0,1) 46%, rgba(237,225,223,1) 79%, rgba(5,5,5,1) 89%, rgba(5,5,5,1) 100%);
+background: -ms-linear-gradient(top, rgba(18,17,17,1) 0%, rgba(18,17,17,1) 1%, rgba(242,242,242,1) 17%, rgba(0,0,0,1) 46%, rgba(237,225,223,1) 79%, rgba(5,5,5,1) 89%, rgba(5,5,5,1) 100%);
+background: linear-gradient(to bottom, rgba(18,17,17,1) 0%, rgba(18,17,17,1) 1%, rgba(242,242,242,1) 17%, rgba(0,0,0,1) 46%, rgba(237,225,223,1) 79%, rgba(5,5,5,1) 89%, rgba(5,5,5,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#121111', endColorstr='#050505', GradientType=0 );
+}
+a,
+a:link {
+    outline: none;
+}
+h1 {
+    font-weight: 100;
+    font-size: 72px;
+    margin: 20px 0;
+    font-family: Georgia, serif;    
+    font: sans-serif;
+    font-style: italic;
+    color:white;
+}
+#container {
+    width: 800px;
+    text-align: center;
+    margin: 20px auto;
+}
+input[type="text"] {
+    height: 15px;
+    width: 450px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 10px;
+
+}
+.done {
+    text-decoration: line-through;
+}
+.agregar {
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    background-color: black;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    font-style: italic;
+    font-family: Georgia, serif; 
+    width: 150px;
+}
+
+.delete-btn{
+
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    background-color: black;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    font-style: italic;
+    font-family: Georgia, serif; 
+    width: 70px;
+
+}
+
+ul {
+    margin: 15px auto 0;
+    padding: 0;
+    width: 545px;
+}
+ul li {
+    list-style-type: none;
+    font-size: 24px;
+    background-color: #efefef;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: left;
+}
+ul li span {
+    cursor: text;
+}
+ul li a,
+ul li a:link {
+    float: right;
+    display: none;
+    text-decoration: none;
+    color: #f03;
+}
+ul li a:hover {
+    text-decoration: underline;
+}
